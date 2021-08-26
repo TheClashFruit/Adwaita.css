@@ -20,3 +20,46 @@ body {
   background-color: var(--bgColor);
   border: 1px solid white;
 }
+
+.window > .titlebar {
+  background-color: var(--bgColor);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 6px;
+  height: 35px;
+
+  border-bottom: 1px solid white;
+}
+
+.titlebar > .title {
+  text-align: center;
+  width: 100%;
+}
+
+.titlebar > .actions {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.actions > button {
+  margin-left: 4px;
+
+  background: transparent;
+  border: none;
+  border-radius: 100%;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  height: 30px;
+  width: 30px;
+}
+
+.actions > button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
