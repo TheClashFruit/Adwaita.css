@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+
+  --bgColor: #f6f5f4;
+  --fgColor: #2e3436;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: transparent;
+  color: var(--fgColor);
+}
+
+.window {
+  border-radius: 4px 0;
+  background-color: var(--bgColor);
+  border: 1px solid white;
+}
